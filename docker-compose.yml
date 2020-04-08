@@ -1,0 +1,10 @@
+version: '3'
+services:
+  docker-frontend:
+    build: ./client
+  docker-backend:
+    build: ./server
+  nginx:
+    build: ./nginx
+    ports:
+        - 80:80
