@@ -23,11 +23,6 @@ export class index extends Component {
         <Head>
         <title>I'm Marcus Foo</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"></link>
-        <link rel="stylesheet" href="css/animate.css"></link>
-        <script src="js/wow.min.js"></script>
-              <script>
-              new WOW().init();
-              </script>
         </Head>
         
         <Layout />
