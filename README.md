@@ -1,2 +1,2 @@
 # Website
- Updated website with microservice acrchitecture
+ Updated website with microservice architecture
