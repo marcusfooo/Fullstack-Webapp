@@ -3,7 +3,7 @@ FROM alpine:3.11
 # Setting working directory. All the path will be relative to WORKDIR
 WORKDIR /usr/src/app
 
-RUN apk add --update npm
+RUN apk add --update nodejs nodejs-npm
 # Install PM2 globally
 RUN npm install --global pm2
 
