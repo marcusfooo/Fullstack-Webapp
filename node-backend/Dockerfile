@@ -1,9 +1,8 @@
-FROM alpine:3.11
+FROM node:alpine
 
 # Setting working directory. All the path will be relative to WORKDIR
 WORKDIR /usr/src/app
 
-RUN apk add --update nodejs nodejs-npm
 # Install PM2 globally
 RUN npm install --global pm2
 
@@ -15,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Building app
-
+RUN npm install
 EXPOSE 3000
 
 # Run container as non-root (unprivileged) user
