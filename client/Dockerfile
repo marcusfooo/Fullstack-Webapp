@@ -13,6 +13,7 @@ RUN npm install
 # Copying source files
 COPY . .
 
+RUN rm node_modules
 # Building app
 RUN npm install
 RUN npm run build
