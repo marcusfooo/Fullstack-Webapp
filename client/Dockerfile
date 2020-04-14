@@ -3,9 +3,6 @@ FROM node:alpine
 # Setting working directory. All the path will be relative to WORKDIR
 WORKDIR /usr/src/app
 
-# Install PM2 globally
-RUN npm install --global pm2
-
 # Installing dependencies
 COPY package*.json ./
 RUN npm install
@@ -13,7 +10,11 @@ RUN npm install
 # Copying source files
 COPY . .
 
-RUN rm node_modules
+RUN rm -rf /node_modules
+
+# Install PM2 globally
+RUN npm install --global pm2
+
 # Building app
 RUN npm install
 RUN npm run build
