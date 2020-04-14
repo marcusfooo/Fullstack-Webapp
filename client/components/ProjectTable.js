@@ -3,45 +3,63 @@ import { Table } from 'reactstrap';
 import fetch from 'isomorphic-unfetch';
 
 
-const ProjectTable = (props) => {
-  return (
-      <div style={{textAlign:"center"}}> 
-      <div style={{display: "inline-block"}}>
-      <Table bordered style={{width:"80vw"}}>
-      <thead>
+
+class ProjectTable extends React.Component{
+  constructor(props) {
+    super(props);
+    this.state = { data: [{}]};
+    this.fetchGithub = this.fetchGithub.bind(this)
+  }
+  componentDidMount(){
+    this.fetchGithub()
+ }
+  fetchGithub() {    
+    const query = `
+    query {
+      repos {
+        id
+        name
+        description
+        url
+        language
+      }
+    }
+    `;
+  const url = "/graphql";
+  fetch(url, {
+    method: 'POST',
+    headers: { 
+      'Content-Type': 'application/json'      
+    },
+    body: JSON.stringify({ query: query }),
+  })
+    .then(res => res.json())
+    .then(res => this.setState({data: res.data.repos}))
+
+}
+  render() {
+   
+    return (
+      <div style={{textAlign:"center"}}>
+        <div style= {{maxWidth:"80vw", display: "inline-block", fontFamily:"Roboto"}}>
+        <Table bordered>
+        <thead style={{background:"#808080", borderStyle:"inset"}}>
         <tr>
-          <th>#</th>
-          <th>First Name</th>
-          <th>Last Name</th>
-          <th>Username</th>
+          <th>ID</th>
+          <th>Repository Name</th>
+          <th>Description</th>
+          <th>Language</th>
         </tr>
       </thead>
-      <tbody>
-        <tr>
-          <th scope="row">1</th>
-          <td>Mark</td>
-          <td>Otto</td>
-          <td>@mdo</td>
-        </tr>
-        <tr>
-          <th scope="row">2</th>
-          <td>Jacob</td>
-          <td>Thornton</td>
-          <td>@fat</td>
-        </tr>
-        <tr>
-          <th scope="row">3</th>
-          <td>Larry</td>
-          <td>the Bird</td>
-          <td>@twitter</td>
-        </tr>
-      </tbody>
-    </Table>
+        {this.state.data.map(row => <tr scope="row"><td>{row.id}</td><td><a href target="_blank" href={row.url}>{row.name}</a></td><td>{row.description}</td><td>{row.language}</td></tr> )}
+        </Table>
+        </div>
+        
       </div>
-            
-      </div>
-    
+      
   );
+  }
+  
 }
 
 export default ProjectTable;

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Head from 'next/head'
 import Layout from '../components/Layout'
 import Hero from '../components/Hero'
-import JumboCard from '../components/JumboCard'
+import ExperienceCard from '../components/ExperienceCard'
 import MyEthos from '../components/Ethos'
 import Technology from '../components/Technology'
 import Footer from '../components/Footer'
@@ -35,38 +35,40 @@ export class index extends Component {
          
 
       {/* Experiences section */}   
-
       <div className="wow slideInLeft" data-wow-offset="20">
-          <JumboCard 
+          <ExperienceCard 
           image="/Temasek.jpg"
           image_alt="Temasek Image"
           link="https://www.temasek.com.sg/en/index"
           title="Temasek Holdings"
           date="(May 2020 - Present)"
-          position="Incoming Software Engineering Intern"
+          country = "Singapore, SG"
+          position="Software Engineering Intern"
           description="Part of the Temasek Digital Team. Working closely with other team members in an agile setup to develop software for digital initiatives, leveraging big data, machine learning and cloud technologies."
           />
       </div>
        
       <div className="wow slideInRight" data-wow-offset="20">
-          <JumboCard 
+          <ExperienceCard 
           image="/saturday_kids.png"
           image_alt="Saturday Kids Image"
           link="https://www.saturdaykids.com/"
           title="Saturday Kids"
           date="(Jan 2020 - Present)"
+          country = "Singapore, SG"
           position="Python Instructor"
           description="Selected as a Python Instructor for the Bukit Panjang library students. In collaboration with Google and IMDA, I led a group of assistants to teach a class of 18 students."
           />
       </div>
       
       <div className="wow slideInLeft" data-wow-offset="20">
-          <JumboCard 
+          <ExperienceCard 
           image="/ntu.jpg"
           image_alt="NTU Image"
           link="https://www.ntu.edu.sg/Pages/home.aspx"
           title="NTU"
           date="(Aug 2019 - Present)"
+          country = "Singapore, SG"
           position="Double Degree in Business Analytics & Computer Science"
           description={<ul>
             <li>Technical Director at Nanyang Open Source Society</li>

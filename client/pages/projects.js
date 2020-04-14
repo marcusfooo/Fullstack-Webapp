@@ -5,6 +5,7 @@ import ProjectTable from '../components/ProjectTable'
 
 
 export default function About() {
+  
     return (      
       <div>
            <Head>
@@ -16,6 +17,7 @@ export default function About() {
         </div>
         
         <ProjectTable />
+        <Footer/>
         
         <style jsx>{`
 

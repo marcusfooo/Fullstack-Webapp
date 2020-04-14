@@ -12,11 +12,11 @@ const Technology = (props) => {
         <CardBody>
           <CardTitle style={{textAlign:"center", fontWeight:"500", fontSize:"2rem"}}>Front-End</CardTitle>
           <CardSubtitle style={{fontWeight:"500",fontSize:"1.25rem"}}>ReactJs/ NextJS/ ReactStrap</CardSubtitle>
-          <CardText>
+          <CardText style={{paddingTop:"0.6rem"}}>
               <ul>
-                <li>Single page Web apps written in ReactJS</li>
-                <li>Components mainly made with ReactStrap</li>
-                <li>Multi page Server Side Rendering through NextJS</li>
+                <li>Components styled using ReactStrap</li>
+                <li>Components written using ES6 and ReactJS Framework</li>
+                <li>Multi page Server Side Rendering and Routing through NextJS</li>
               </ul></CardText>
         </CardBody>
       </Card>
@@ -24,12 +24,13 @@ const Technology = (props) => {
         <CardImg top width="100%" src="/backend.jpg" alt="Card image cap" />
         <CardBody>
           <CardTitle style={{textAlign:"center", fontWeight:"500", fontSize:"2rem"}}>Back-End</CardTitle>
-          <CardSubtitle style={{fontWeight:"500",fontSize:"1.25rem"}}>NodeJS/ Express/ GraphQL</CardSubtitle>
-          <CardText>
+          <CardSubtitle style={{fontWeight:"500",fontSize:"1.25rem"}}>NodeJS/ Express/ GraphQL/ MySQL</CardSubtitle>
+          <CardText style={{paddingTop:"0.6rem"}}>
               <ul>
-                  <li>Express Server routing</li>
-                  <li>NodeJS backend for single execution thread based architecture</li>
-                  <li>GraphQL API implementation instead of REST</li>
+                  <li>Event-driven Architecture using NodeJS backend</li>
+                  <li>Apollo server App with Express Middleware</li>
+                  <li>GraphQL API endpoint integrated with Sequelize</li>
+                  <li>MySQL Database volume for storing Github repositories</li>
               </ul>
           </CardText>
         </CardBody>
@@ -37,12 +38,13 @@ const Technology = (props) => {
       <Card>
         <CardImg top width="100%" src="/deployment.png" alt="Card image cap" />
         <CardBody>
-          <CardTitle style={{textAlign:"center", fontWeight:"500", fontSize:"2rem"}}>Deployment</CardTitle>
-          <CardSubtitle style={{fontWeight:"500",fontSize:"1.25rem"}}>Docker/ Jenkins/ DigitalOcean</CardSubtitle>
-          <CardText>
+          <CardTitle style={{textAlign:"center", fontWeight:"500", fontSize:"2rem"}}>Deployment/ Networking</CardTitle>
+          <CardSubtitle style={{fontWeight:"500",fontSize:"1.25rem"}}>Docker/ NGINX/ Jenkins/ DigitalOcean</CardSubtitle>
+          <CardText style={{paddingTop:"0.6rem"}}>
               <ul>
-                  <li>Spun up VPS using DigitalOcean</li>
-                  <li>Container Orcchestration through Docker Compose</li>
+                  <li>Reverse Proxy Routing through NGINX</li>
+                  <li>Microservice Architecture and Container Orchestration through Docker Compose</li>
+                  <li>Deployed on a DigitalOcean Ubuntu VPS</li>
                   <li>Continuous Integration and Deployment through Jenkins</li>
               </ul></CardText>
         </CardBody>
