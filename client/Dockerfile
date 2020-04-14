@@ -10,11 +10,10 @@ RUN npm install
 # Copying source files
 COPY . .
 
-RUN rm -rf /node_modules
-
 # Install PM2 globally
 RUN npm install --global pm2
-
+RUN npm install -g npm@latest
+RUN rm -rf node_modules
 # Building app
 RUN npm install
 RUN npm run build
