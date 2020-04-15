@@ -12,7 +12,13 @@ const WOW = !isServer ? require('wow.js') : null
 
 export class index extends Component {
   componentDidMount() { 
-    new WOW().init() 
+    new WOW({
+      boxClass:     'wow',      // default
+      animateClass: 'animated', // default
+      offset:       0,          // default
+      mobile:       true,       
+      live:         true        // default
+    }).init() 
   } 
   render() {
     return (
@@ -43,7 +49,7 @@ export class index extends Component {
           title="Temasek Holdings"
           date="(May 2020 - Present)"
           country = "Singapore, SG"
-          position="Software Engineering Intern"
+          position="Software Engineer Intern"
           description="Part of the Temasek Digital Team. Working closely with other team members in an agile setup to develop software for digital initiatives, leveraging big data, machine learning and cloud technologies."
           />
       </div>

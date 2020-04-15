@@ -27,5 +27,4 @@ const items = [
 
 
 const MyEthos = () => <UncontrolledCarousel items={items} />;
-
 export default MyEthos;

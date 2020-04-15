@@ -5,7 +5,7 @@ var { connect_db } = require('../../mysql/connect_db')
 const query = `
 query {
     user(login: "marcusfooo") {
-      repositories(first: 100, isFork: false) {
+      repositories(last: 100, isFork: false) {
         nodes {
           name
           description

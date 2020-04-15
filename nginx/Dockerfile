@@ -7,7 +7,10 @@ RUN rm /etc/nginx/conf.d/*
 # Copy config files
 # *.conf files in conf.d/ dir get included in main config
 COPY ./default.conf /etc/nginx/conf.d/
+COPY ./init-letsencrypt.sh /
 
+RUN chmod +x init-letsencrypt.sh
+RUN sudo ./init-letsencrypt.sh
 # Expose the listening port
 EXPOSE 80
 
