@@ -6,7 +6,7 @@ services:
     networks:
       - app-network
     ports:
-      - "8080:8080"
+      - "3000:3000"
   nginx:  
     build: ./nginx
     ports:
