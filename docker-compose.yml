@@ -5,11 +5,15 @@ services:
     container_name: 'docker-frontend'
     networks:
       - app-network
+    ports:
+      - "8080:8080"
   docker-backend:
     build: ./node-backend
     container_name: 'docker-backend'
     networks:
       - app-network
+    ports:
+      - "8081:8081"
   docker-database:
     image: 'mysql:latest'
     container_name: 'docker-database'
@@ -22,11 +26,8 @@ services:
       MYSQL_PASSWORD: 'password'
       # Password for root access
       MYSQL_ROOT_PASSWORD: 'password'
-      MYSQL_ROOT_HOST: "172.18.0.2"
     ports:
-      - 3306:3306
-    expose:
-      - '3306'
+      - "3306:3306"
     networks:
       - app-network
   nginx:  
@@ -47,6 +48,9 @@ services:
       - ./data/certbot/conf:/etc/letsencrypt
       - ./data/certbot/www:/var/www/certbot
     entrypoint: "/bin/sh -c 'trap exit TERM; while :; do certbot renew; sleep 12h & wait $${!}; done;'"
+    networks:
+      - app-network
+
 networks:
   app-network:
     driver: bridge

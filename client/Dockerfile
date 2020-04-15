@@ -11,9 +11,10 @@ RUN npm install
 COPY . .
 
 # Install PM2 globally
+RUN rm -rf node_modules
 RUN npm install --global pm2
 RUN npm install -g npm@latest
-RUN rm -rf node_modules
+
 # Building app
 RUN npm install
 RUN npm run build

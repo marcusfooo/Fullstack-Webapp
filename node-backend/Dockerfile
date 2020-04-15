@@ -12,12 +12,13 @@ COPY . .
 
 
 # Install PM2 globally
+RUN rm -rf node_modules
 RUN npm install --global pm2
 RUN npm install -g npm@latest
-RUN rm -rf node_modules
+
 # Building app
 RUN npm install
-EXPOSE 3000
+EXPOSE 8081
 
 # Run container as non-root (unprivileged) user
 # The node user is provided in the Node.js Alpine base image
