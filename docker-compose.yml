@@ -5,6 +5,21 @@ services:
     container_name: 'docker-frontend'
     networks:
       - app-network
+  docker-backend:
+    build: ./node-backend
+    container_name: 'docker-backend'
+    networks:
+      - app-network
+  docker-database:
+    image: 'mysql:latest'
+    container_name: 'docker-database'
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'db'
+      MYSQL_ROOT_PASSWORD: 'password'
+      MYSQL_ROOT_HOST: "%"
+    networks:
+      - app-network
   nginx:  
     build: ./nginx
     ports:
