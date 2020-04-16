@@ -120,7 +120,6 @@ export class index extends Component {
 
       <style jsx>{`
             .main {
-              overflow: hidden;
             }
             .headerContainer {
               display: flex;

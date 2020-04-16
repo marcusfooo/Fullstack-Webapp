@@ -41,7 +41,7 @@ class ProjectTable extends React.Component{
    
     return (
       <div style={{textAlign:"center"}}>
-        <div style= {{maxWidth:"80vw", display: "inline-block", fontFamily:"Roboto"}}>
+        <div className = "tableContainer"style= {{maxWidth:"80vw", display: "inline-block", fontFamily:"Roboto"}}>
         <Table bordered>
         <thead style={{background:"#808080", borderStyle:"inset"}}>
         <tr>
@@ -54,7 +54,18 @@ class ProjectTable extends React.Component{
         {this.state.data.map(row => <tr scope="row"><td>{row.id}</td><td><a href target="_blank" href={row.url}>{row.name}</a></td><td>{row.description}</td><td>{row.language}</td></tr> )}
         </Table>
         </div>
-        
+        <style jsx>{`
+
+          .tableContainer {
+            margin-bottom: 2.5vh;
+          }
+
+          @media (max-width: 768px) {
+            .tableContainer {
+                overflow: scroll;
+            }
+          }
+        `} </style>
       </div>
       
   );

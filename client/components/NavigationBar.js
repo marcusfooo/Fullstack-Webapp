@@ -53,13 +53,9 @@ const NavigationBar = (props) => {
             }
 
             @keyframes jiggle {
-              /* start at 0deg and this scale size.
-                 scale size is repeated here to maintain smooth scaling */
               0% {transform: rotate(0deg) scale(1.15,1.15);}
-              /* midway rotate 2deg right */
-              50% {transform: rotate(2deg) scale(1.15,1.15);}
-              /* end rotate -2deg left */
-              100% {transform: rotate(-2deg) scale(1.15,1.15)}
+              50% {transform: rotate(1deg) scale(1.15,1.15);}
+              100% {transform: rotate(-1deg) scale(1.15,1.15)}
             }
           }
         `} </style>
