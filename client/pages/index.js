@@ -32,7 +32,7 @@ export class index extends Component {
         <Head>
         <meta property="og:title" content="My Personal Website" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="/thumbnail.jpg" />
+        <meta property="og:image" content="https://marcusfoo.io/Hero.jpg"/>
         <title>I'm Marcus Foo</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"></link>
         </Head>
