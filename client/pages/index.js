@@ -30,6 +30,9 @@ export class index extends Component {
         {/* Top banner section */}
 
         <Head>
+        <meta property="og:title" content="My Personal Website" />
+        <meta property="og:type" content="website" />
+         <meta property="og:image" content="/thumbnail.png" />
         <title>I'm Marcus Foo</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"></link>
         </Head>
