@@ -58,7 +58,7 @@ const ExperienceCard = (props) => {
             transition-duration: 0.5s            
         }
 
-        @media (max-width: 768px) {
+        @media (max-width: 1000px) {
             .mainContainer {
                 margin: 5vh 5vw;
                 display: flex;
@@ -71,7 +71,7 @@ const ExperienceCard = (props) => {
             }
         }
 
-        @media (min-width: 768px) {
+        @media (min-width: 1000px) {
             .mainContainer {
                 margin: 5vh auto;
                 max-width: 50vw
