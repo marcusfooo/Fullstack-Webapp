@@ -40,8 +40,8 @@ class ProjectTable extends React.Component{
   render() {
    
     return (
-      <div style={{textAlign:"center"}}>
-        <div className = "tableContainer"style= {{maxWidth:"80vw", display: "inline-block", fontFamily:"Roboto"}}>
+      <div className = "Container">
+        <div className = "tableContainer" style= {{maxWidth:"80vw", display: "inline-block", fontFamily:"Roboto"}}>
         <Table bordered>
         <thead style={{background:"#808080", borderStyle:"inset"}}>
         <tr>
@@ -56,13 +56,17 @@ class ProjectTable extends React.Component{
         </div>
         <style jsx>{`
 
-          .tableContainer {
+          .Container {
             margin-bottom: 2.5vh;
+            text-align: center;
           }
 
+
           @media (max-width: 768px) {
-            .tableContainer {
+            .Container {
+                max-width:90vw;
                 overflow: scroll;
+                margin: 2.5vh 2.5vw
             }
           }
         `} </style>

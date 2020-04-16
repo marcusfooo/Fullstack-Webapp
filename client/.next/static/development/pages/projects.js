@@ -676,10 +676,7 @@ var ProjectTable = /*#__PURE__*/function (_React$Component) {
       var _this3 = this;
 
       return __jsx("div", {
-        style: {
-          textAlign: "center"
-        },
-        className: "jsx-1539502509",
+        className: "jsx-2615202541" + " " + "Container",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -692,7 +689,7 @@ var ProjectTable = /*#__PURE__*/function (_React$Component) {
           display: "inline-block",
           fontFamily: "Roboto"
         },
-        className: "jsx-1539502509" + " " + "tableContainer",
+        className: "jsx-2615202541" + " " + "tableContainer",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -712,7 +709,7 @@ var ProjectTable = /*#__PURE__*/function (_React$Component) {
           background: "#808080",
           borderStyle: "inset"
         },
-        className: "jsx-1539502509",
+        className: "jsx-2615202541",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -720,7 +717,7 @@ var ProjectTable = /*#__PURE__*/function (_React$Component) {
           columnNumber: 9
         }
       }, __jsx("tr", {
-        className: "jsx-1539502509",
+        className: "jsx-2615202541",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -728,7 +725,7 @@ var ProjectTable = /*#__PURE__*/function (_React$Component) {
           columnNumber: 9
         }
       }, __jsx("th", {
-        className: "jsx-1539502509",
+        className: "jsx-2615202541",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -736,7 +733,7 @@ var ProjectTable = /*#__PURE__*/function (_React$Component) {
           columnNumber: 11
         }
       }, "ID"), __jsx("th", {
-        className: "jsx-1539502509",
+        className: "jsx-2615202541",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -744,7 +741,7 @@ var ProjectTable = /*#__PURE__*/function (_React$Component) {
           columnNumber: 11
         }
       }, "Repository Name"), __jsx("th", {
-        className: "jsx-1539502509",
+        className: "jsx-2615202541",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -752,7 +749,7 @@ var ProjectTable = /*#__PURE__*/function (_React$Component) {
           columnNumber: 11
         }
       }, "Description"), __jsx("th", {
-        className: "jsx-1539502509",
+        className: "jsx-2615202541",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -764,7 +761,7 @@ var ProjectTable = /*#__PURE__*/function (_React$Component) {
 
         return __jsx("tr", {
           scope: "row",
-          className: "jsx-1539502509",
+          className: "jsx-2615202541",
           __self: _this3,
           __source: {
             fileName: _jsxFileName,
@@ -772,7 +769,7 @@ var ProjectTable = /*#__PURE__*/function (_React$Component) {
             columnNumber: 37
           }
         }, __jsx("td", {
-          className: "jsx-1539502509",
+          className: "jsx-2615202541",
           __self: _this3,
           __source: {
             fileName: _jsxFileName,
@@ -780,7 +777,7 @@ var ProjectTable = /*#__PURE__*/function (_React$Component) {
             columnNumber: 53
           }
         }, row.id), __jsx("td", {
-          className: "jsx-1539502509",
+          className: "jsx-2615202541",
           __self: _this3,
           __source: {
             fileName: _jsxFileName,
@@ -790,12 +787,12 @@ var ProjectTable = /*#__PURE__*/function (_React$Component) {
         }, __jsx("a", (_jsx = {
           href: true,
           target: "_blank"
-        }, Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx, "href", row.url), Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx, "className", "jsx-1539502509"), Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx, "__self", _this3), Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx, "__source", {
+        }, Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx, "href", row.url), Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx, "className", "jsx-2615202541"), Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx, "__self", _this3), Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx, "__source", {
           fileName: _jsxFileName,
           lineNumber: 54,
           columnNumber: 74
         }), _jsx), row.name)), __jsx("td", {
-          className: "jsx-1539502509",
+          className: "jsx-2615202541",
           __self: _this3,
           __source: {
             fileName: _jsxFileName,
@@ -803,7 +800,7 @@ var ProjectTable = /*#__PURE__*/function (_React$Component) {
             columnNumber: 132
           }
         }, row.description), __jsx("td", {
-          className: "jsx-1539502509",
+          className: "jsx-2615202541",
           __self: _this3,
           __source: {
             fileName: _jsxFileName,
@@ -812,9 +809,9 @@ var ProjectTable = /*#__PURE__*/function (_React$Component) {
           }
         }, row.language));
       }))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_7___default.a, {
-        id: "1539502509",
+        id: "2615202541",
         __self: this
-      }, ".tableContainer.jsx-1539502509{margin-bottom:2.5vh;}@media (max-width:768px){.tableContainer.jsx-1539502509{overflow:scroll;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcTWFyY3VzXFxEZXNrdG9wXFxQcm9qZWN0c1xcV2Vic2l0ZVxcY2xpZW50XFxjb21wb25lbnRzXFxQcm9qZWN0VGFibGUuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBd0RvQixBQUlpQyxBQUtBLGdCQUNwQixJQUxGIiwiZmlsZSI6IkM6XFxVc2Vyc1xcTWFyY3VzXFxEZXNrdG9wXFxQcm9qZWN0c1xcV2Vic2l0ZVxcY2xpZW50XFxjb21wb25lbnRzXFxQcm9qZWN0VGFibGUuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xyXG5pbXBvcnQgeyBUYWJsZSB9IGZyb20gJ3JlYWN0c3RyYXAnO1xyXG5pbXBvcnQgZmV0Y2ggZnJvbSAnaXNvbW9ycGhpYy11bmZldGNoJztcclxuXHJcblxyXG5cclxuY2xhc3MgUHJvamVjdFRhYmxlIGV4dGVuZHMgUmVhY3QuQ29tcG9uZW50e1xyXG4gIGNvbnN0cnVjdG9yKHByb3BzKSB7XHJcbiAgICBzdXBlcihwcm9wcyk7XHJcbiAgICB0aGlzLnN0YXRlID0geyBkYXRhOiBbe31dfTtcclxuICAgIHRoaXMuZmV0Y2hHaXRodWIgPSB0aGlzLmZldGNoR2l0aHViLmJpbmQodGhpcylcclxuICB9XHJcbiAgY29tcG9uZW50RGlkTW91bnQoKXtcclxuICAgIHRoaXMuZmV0Y2hHaXRodWIoKVxyXG4gfVxyXG4gIGZldGNoR2l0aHViKCkgeyAgICBcclxuICAgIGNvbnN0IHF1ZXJ5ID0gYFxyXG4gICAgcXVlcnkge1xyXG4gICAgICByZXBvcyB7XHJcbiAgICAgICAgaWRcclxuICAgICAgICBuYW1lXHJcbiAgICAgICAgZGVzY3JpcHRpb25cclxuICAgICAgICB1cmxcclxuICAgICAgICBsYW5ndWFnZVxyXG4gICAgICB9XHJcbiAgICB9XHJcbiAgICBgO1xyXG4gIGNvbnN0IHVybCA9IFwiL2dyYXBocWxcIjtcclxuICBmZXRjaCh1cmwsIHtcclxuICAgIG1ldGhvZDogJ1BPU1QnLFxyXG4gICAgaGVhZGVyczogeyBcclxuICAgICAgJ0NvbnRlbnQtVHlwZSc6ICdhcHBsaWNhdGlvbi9qc29uJyAgICAgIFxyXG4gICAgfSxcclxuICAgIGJvZHk6IEpTT04uc3RyaW5naWZ5KHsgcXVlcnk6IHF1ZXJ5IH0pLFxyXG4gIH0pXHJcbiAgICAudGhlbihyZXMgPT4gcmVzLmpzb24oKSlcclxuICAgIC50aGVuKHJlcyA9PiB0aGlzLnNldFN0YXRlKHtkYXRhOiByZXMuZGF0YS5yZXBvc30pKVxyXG5cclxufVxyXG4gIHJlbmRlcigpIHtcclxuICAgXHJcbiAgICByZXR1cm4gKFxyXG4gICAgICA8ZGl2IHN0eWxlPXt7dGV4dEFsaWduOlwiY2VudGVyXCJ9fT5cclxuICAgICAgICA8ZGl2IGNsYXNzTmFtZSA9IFwidGFibGVDb250YWluZXJcInN0eWxlPSB7e21heFdpZHRoOlwiODB2d1wiLCBkaXNwbGF5OiBcImlubGluZS1ibG9ja1wiLCBmb250RmFtaWx5OlwiUm9ib3RvXCJ9fT5cclxuICAgICAgICA8VGFibGUgYm9yZGVyZWQ+XHJcbiAgICAgICAgPHRoZWFkIHN0eWxlPXt7YmFja2dyb3VuZDpcIiM4MDgwODBcIiwgYm9yZGVyU3R5bGU6XCJpbnNldFwifX0+XHJcbiAgICAgICAgPHRyPlxyXG4gICAgICAgICAgPHRoPklEPC90aD5cclxuICAgICAgICAgIDx0aD5SZXBvc2l0b3J5IE5hbWU8L3RoPlxyXG4gICAgICAgICAgPHRoPkRlc2NyaXB0aW9uPC90aD5cclxuICAgICAgICAgIDx0aD5MYW5ndWFnZTwvdGg+XHJcbiAgICAgICAgPC90cj5cclxuICAgICAgPC90aGVhZD5cclxuICAgICAgICB7dGhpcy5zdGF0ZS5kYXRhLm1hcChyb3cgPT4gPHRyIHNjb3BlPVwicm93XCI+PHRkPntyb3cuaWR9PC90ZD48dGQ+PGEgaHJlZiB0YXJnZXQ9XCJfYmxhbmtcIiBocmVmPXtyb3cudXJsfT57cm93Lm5hbWV9PC9hPjwvdGQ+PHRkPntyb3cuZGVzY3JpcHRpb259PC90ZD48dGQ+e3Jvdy5sYW5ndWFnZX08L3RkPjwvdHI+ICl9XHJcbiAgICAgICAgPC9UYWJsZT5cclxuICAgICAgICA8L2Rpdj5cclxuICAgICAgICA8c3R5bGUganN4PntgXHJcblxyXG4gICAgICAgICAgLnRhYmxlQ29udGFpbmVyIHtcclxuICAgICAgICAgICAgbWFyZ2luLWJvdHRvbTogMi41dmg7XHJcbiAgICAgICAgICB9XHJcblxyXG4gICAgICAgICAgQG1lZGlhIChtYXgtd2lkdGg6IDc2OHB4KSB7XHJcbiAgICAgICAgICAgIC50YWJsZUNvbnRhaW5lciB7XHJcbiAgICAgICAgICAgICAgICBvdmVyZmxvdzogc2Nyb2xsO1xyXG4gICAgICAgICAgICB9XHJcbiAgICAgICAgICB9XHJcbiAgICAgICAgYH0gPC9zdHlsZT5cclxuICAgICAgPC9kaXY+XHJcbiAgICAgIFxyXG4gICk7XHJcbiAgfVxyXG4gIFxyXG59XHJcblxyXG5leHBvcnQgZGVmYXVsdCBQcm9qZWN0VGFibGU7Il19 */\n/*@ sourceURL=C:\\\\Users\\\\Marcus\\\\Desktop\\\\Projects\\\\Website\\\\client\\\\components\\\\ProjectTable.js */"));
+      }, ".Container.jsx-2615202541{margin-bottom:2.5vh;text-align:center;}@media (max-width:768px){.Container.jsx-2615202541{max-width:90vw;overflow:scroll;margin:2.5vh 2.5vw;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcTWFyY3VzXFxEZXNrdG9wXFxQcm9qZWN0c1xcV2Vic2l0ZVxcY2xpZW50XFxjb21wb25lbnRzXFxQcm9qZWN0VGFibGUuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBd0RvQixBQUlpQyxBQU9GLGVBQ0UsS0FQRixXQVNuQixPQVJELFlBUUUiLCJmaWxlIjoiQzpcXFVzZXJzXFxNYXJjdXNcXERlc2t0b3BcXFByb2plY3RzXFxXZWJzaXRlXFxjbGllbnRcXGNvbXBvbmVudHNcXFByb2plY3RUYWJsZS5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XHJcbmltcG9ydCB7IFRhYmxlIH0gZnJvbSAncmVhY3RzdHJhcCc7XHJcbmltcG9ydCBmZXRjaCBmcm9tICdpc29tb3JwaGljLXVuZmV0Y2gnO1xyXG5cclxuXHJcblxyXG5jbGFzcyBQcm9qZWN0VGFibGUgZXh0ZW5kcyBSZWFjdC5Db21wb25lbnR7XHJcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcclxuICAgIHN1cGVyKHByb3BzKTtcclxuICAgIHRoaXMuc3RhdGUgPSB7IGRhdGE6IFt7fV19O1xyXG4gICAgdGhpcy5mZXRjaEdpdGh1YiA9IHRoaXMuZmV0Y2hHaXRodWIuYmluZCh0aGlzKVxyXG4gIH1cclxuICBjb21wb25lbnREaWRNb3VudCgpe1xyXG4gICAgdGhpcy5mZXRjaEdpdGh1YigpXHJcbiB9XHJcbiAgZmV0Y2hHaXRodWIoKSB7ICAgIFxyXG4gICAgY29uc3QgcXVlcnkgPSBgXHJcbiAgICBxdWVyeSB7XHJcbiAgICAgIHJlcG9zIHtcclxuICAgICAgICBpZFxyXG4gICAgICAgIG5hbWVcclxuICAgICAgICBkZXNjcmlwdGlvblxyXG4gICAgICAgIHVybFxyXG4gICAgICAgIGxhbmd1YWdlXHJcbiAgICAgIH1cclxuICAgIH1cclxuICAgIGA7XHJcbiAgY29uc3QgdXJsID0gXCIvZ3JhcGhxbFwiO1xyXG4gIGZldGNoKHVybCwge1xyXG4gICAgbWV0aG9kOiAnUE9TVCcsXHJcbiAgICBoZWFkZXJzOiB7IFxyXG4gICAgICAnQ29udGVudC1UeXBlJzogJ2FwcGxpY2F0aW9uL2pzb24nICAgICAgXHJcbiAgICB9LFxyXG4gICAgYm9keTogSlNPTi5zdHJpbmdpZnkoeyBxdWVyeTogcXVlcnkgfSksXHJcbiAgfSlcclxuICAgIC50aGVuKHJlcyA9PiByZXMuanNvbigpKVxyXG4gICAgLnRoZW4ocmVzID0+IHRoaXMuc2V0U3RhdGUoe2RhdGE6IHJlcy5kYXRhLnJlcG9zfSkpXHJcblxyXG59XHJcbiAgcmVuZGVyKCkge1xyXG4gICBcclxuICAgIHJldHVybiAoXHJcbiAgICAgIDxkaXYgY2xhc3NOYW1lID0gXCJDb250YWluZXJcIj5cclxuICAgICAgICA8ZGl2IGNsYXNzTmFtZSA9IFwidGFibGVDb250YWluZXJcIiBzdHlsZT0ge3ttYXhXaWR0aDpcIjgwdndcIiwgZGlzcGxheTogXCJpbmxpbmUtYmxvY2tcIiwgZm9udEZhbWlseTpcIlJvYm90b1wifX0+XHJcbiAgICAgICAgPFRhYmxlIGJvcmRlcmVkPlxyXG4gICAgICAgIDx0aGVhZCBzdHlsZT17e2JhY2tncm91bmQ6XCIjODA4MDgwXCIsIGJvcmRlclN0eWxlOlwiaW5zZXRcIn19PlxyXG4gICAgICAgIDx0cj5cclxuICAgICAgICAgIDx0aD5JRDwvdGg+XHJcbiAgICAgICAgICA8dGg+UmVwb3NpdG9yeSBOYW1lPC90aD5cclxuICAgICAgICAgIDx0aD5EZXNjcmlwdGlvbjwvdGg+XHJcbiAgICAgICAgICA8dGg+TGFuZ3VhZ2U8L3RoPlxyXG4gICAgICAgIDwvdHI+XHJcbiAgICAgIDwvdGhlYWQ+XHJcbiAgICAgICAge3RoaXMuc3RhdGUuZGF0YS5tYXAocm93ID0+IDx0ciBzY29wZT1cInJvd1wiPjx0ZD57cm93LmlkfTwvdGQ+PHRkPjxhIGhyZWYgdGFyZ2V0PVwiX2JsYW5rXCIgaHJlZj17cm93LnVybH0+e3Jvdy5uYW1lfTwvYT48L3RkPjx0ZD57cm93LmRlc2NyaXB0aW9ufTwvdGQ+PHRkPntyb3cubGFuZ3VhZ2V9PC90ZD48L3RyPiApfVxyXG4gICAgICAgIDwvVGFibGU+XHJcbiAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgPHN0eWxlIGpzeD57YFxyXG5cclxuICAgICAgICAgIC5Db250YWluZXIge1xyXG4gICAgICAgICAgICBtYXJnaW4tYm90dG9tOiAyLjV2aDtcclxuICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgICAgICAgfVxyXG5cclxuXHJcbiAgICAgICAgICBAbWVkaWEgKG1heC13aWR0aDogNzY4cHgpIHtcclxuICAgICAgICAgICAgLkNvbnRhaW5lciB7XHJcbiAgICAgICAgICAgICAgICBtYXgtd2lkdGg6OTB2dztcclxuICAgICAgICAgICAgICAgIG92ZXJmbG93OiBzY3JvbGw7XHJcbiAgICAgICAgICAgICAgICBtYXJnaW46IDIuNXZoIDIuNXZ3XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICAgIH1cclxuICAgICAgICBgfSA8L3N0eWxlPlxyXG4gICAgICA8L2Rpdj5cclxuICAgICAgXHJcbiAgKTtcclxuICB9XHJcbiAgXHJcbn1cclxuXHJcbmV4cG9ydCBkZWZhdWx0IFByb2plY3RUYWJsZTsiXX0= */\n/*@ sourceURL=C:\\\\Users\\\\Marcus\\\\Desktop\\\\Projects\\\\Website\\\\client\\\\components\\\\ProjectTable.js */"));
     }
   }]);
 

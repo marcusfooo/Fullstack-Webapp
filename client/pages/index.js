@@ -12,13 +12,16 @@ const WOW = !isServer ? require('wow.js') : null
 
 export class index extends Component {
   componentDidMount() { 
-    new WOW({
-      boxClass:     'wow',      // default
-      animateClass: 'animated', // default
-      offset:       0,          // default
-      mobile:       true,       
-      live:         true        // default
-    }).init() 
+    const wow = new WOW(
+      {
+        boxClass:     'wow',      // default
+        animateClass: 'animated', // default
+        offset:       0,          // default
+        mobile:       true,       
+        live:         true        // default
+      }
+    )
+  wow.init();
   } 
   render() {
     return (
@@ -119,8 +122,7 @@ export class index extends Component {
 
 
       <style jsx>{`
-            .main {
-            }
+
             .headerContainer {
               display: flex;
               justify-content: center;
